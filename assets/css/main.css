@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background: #edf4f0;
+}
+tr{
+	background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
+}
+
+.asterisco-left{
+  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  color:white;
+  border-left: black 4.5px solid;
+}
+.asterisco-top{
+  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  color:white;
+  border-top: black 4.5px solid;
+}
+.asterisco-right{
+  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  color:white;
+  border-right: black 4.5px solid;
+}
+.asterisco-bottom{
+  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  color:white;
+  border-bottom: black 4.5px solid;
+}
+.asterisco-combinado1{
+	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  	color:white;
+  	border-left: black 4.5px solid;
+  	border-top: black 4.5px solid;
+}
+.asterisco-combinado2{
+	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  	color:white;
+  	border-left: black 4.5px solid;
+  	border-bottom: black 4.5px solid;
+}
+.asterisco-combinado3{
+	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  	color:white;
+  	border-right: black 4.5px solid;
+  	border-bottom: black 4.5px solid;
+}
+.asterisco-combinado4{
+	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  	color:white;
+  	border-right: black 4.5px solid;
+  	border-top: black 4.5px solid;
+}
+
+.asterisco-t{
+  /*background-color: green;*/
+  color:white;
+  /*border-top:4px solid #d00;
+	border-left:4px solid #c00;
+	border-bottom:4px solid #900;
+	border-right:4px solid #a00;
+	background-color:#b00;
+	z-index:2;*/
+  	background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+}
+.espacio{
+  /*background-color: white;*/
+  color:white;
+  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+}
+
+.inicio{
+  background-color: red;
+  color:white;
+}
+
+.fin{
+  color:white;
+  /*background-image: url(../img/nest.png);*/
+}
+
+td{
+  width: 50px;
+  height: 50px;
+}
+
+#initial{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+#nest{
+	width: 5%;
+	right:475px;
+	position: absolute;
+	top: 580px;
+}
+
+#red{
+  width: 5%;
+  left:225px;
+  position: absolute;
+  top: 575px;
+}
+
+#right{
+  transform:  rotate(90deg);
+}
+#down{
+  transform:  rotate(180deg);
+}
+#left{
+  transform:  rotate(270deg);
+}
