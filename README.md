@@ -2,7 +2,8 @@
 
 Proyecto Final Sprint II To Do List
 
-[GitHub](https://sharmyn28.github.io/maze-AB/)
+Para ver el proyecto hacer click aqui
+[GitHub gh-pages](https://sharmyn28.github.io/maze-AB/)
 
 
 **1. HTML**
