@@ -61,7 +61,7 @@ tr{
 	border-right:4px solid #a00;
 	background-color:#b00;
 	z-index:2;*/
-  	background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .espacio{
   color:white;
@@ -96,7 +96,7 @@ td{
 }
 #red{
   width: 5%;
-  left:235px;
+  left:231px;
   position: absolute;
   top: 575px;
 }

@@ -66,26 +66,43 @@ function generar(){
 generar();
 
 var step = 50;
+var step1 = 36;
 moveForward.onclick = function (){
 	var y= red.offsetTop;
-	y = y - step;
-	red.style.top = y + "px";
+	if(y >= 225){
+		y = y - step;
+		red.style.top = y + "px";
+	}else{
+		red.style.top = y + "px";
+	}
 }
 
 moveBackward.onclick = function (){
 	var y= red.offsetTop;
-	y = y + step;
-	red.style.top = y + "px";
+	if(y <= 525){
+		y = y + step;
+		red.style.top = y + "px";
+	}else{
+		red.style.top = y + "px";
+	}
 }
 
 moveRight.onclick = function (){
 	var x= red.offsetLeft;
-	x = x + step;
-	red.style.left = x + "px";
+	if(x <= 775){
+		x = x + step1;
+		red.style.left = x + "px";
+	}else{
+		red.style.left = x + "px";
+	}
 }
 
 moveLeft.onclick = function (){
 	var x= red.offsetLeft;
-	x = x - step;
-	red.style.left = x + "px";
+	if(x >= 261){
+		x = x - step1;
+		red.style.left = x + "px";
+	}else{
+		red.style.left = x + "px";
+	}
 }
