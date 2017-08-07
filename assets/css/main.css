@@ -9,57 +9,51 @@ tr{
 }
 
 .asterisco-left{
-  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-left: black 4.5px solid;
   background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-top{
-  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-top: black 4.5px solid;
   background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-right{
-  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-right: black 4.5px solid;
   background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-bottom{
-  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-bottom: black 4.5px solid;
   background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado1{
-	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
-  	color:white;
-  	border-left: black 4.5px solid;
-  	border-top: black 4.5px solid;
-    background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
+  color:white;
+  border-left: black 4.5px solid;
+  border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado2{
-	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
-  	color:white;
-  	border-left: black 4.5px solid;
-  	border-bottom: black 4.5px solid;
+	color:white;
+  border-left: black 4.5px solid;
+  border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado3{
-	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
-  	color:white;
-  	border-right: black 4.5px solid;
-  	border-bottom: black 4.5px solid;
+  color:white;
+  border-right: black 4.5px solid;
+  border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado4{
-	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
-  	color:white;
-  	border-right: black 4.5px solid;
-  	border-top: black 4.5px solid;
+  color:white;
+  border-right: black 4.5px solid;
+  border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 
 .asterisco-t{
-  /*background-color: green;*/
   color:white;
   /*border-top:4px solid #d00;
 	border-left:4px solid #c00;
@@ -70,13 +64,12 @@ tr{
   	background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .espacio{
-  /*background-color: white;*/
   color:white;
   /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
 }
 
 .inicio{
-  background-color: red;
+  /*background-color: red;*/
   color:white;
 }
 
@@ -86,7 +79,7 @@ tr{
 }
 
 td{
-  width: 150px;
+  width: 200px;
   height: 50px;
 }
 
@@ -103,7 +96,7 @@ td{
 }
 #red{
   width: 5%;
-  left:225px;
+  left:235px;
   position: absolute;
   top: 575px;
 }
