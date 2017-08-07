@@ -12,27 +12,32 @@ tr{
   /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-left: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-top{
   /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-top: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-right{
   /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-right: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-bottom{
   /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   color:white;
   border-bottom: black 4.5px solid;
+  background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado1{
 	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
   	color:white;
   	border-left: black 4.5px solid;
   	border-top: black 4.5px solid;
+    background-image: url(http://graphicburger.com/wp-content/uploads/2014/07/8-Brick-Wall-Textures-full.jpg);
 }
 .asterisco-combinado2{
 	/*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
@@ -81,7 +86,7 @@ tr{
 }
 
 td{
-  width: 50px;
+  width: 150px;
   height: 50px;
 }
 
@@ -96,7 +101,6 @@ td{
 	position: absolute;
 	top: 580px;
 }
-
 #red{
   width: 5%;
   left:225px;
@@ -104,12 +108,12 @@ td{
   top: 575px;
 }
 
-#right{
+#moveRight{
   transform:  rotate(90deg);
 }
-#down{
+#moveBackward{
   transform:  rotate(180deg);
 }
-#left{
+#moveLeft{
   transform:  rotate(270deg);
 }

@@ -83,3 +83,9 @@ moveRight.onclick = function (){
 	x = x + step;
 	red.style.left = x + "px";
 }
+
+moveLeft.onclick = function (){
+	var x= red.offsetLeft;
+	x = x - step;
+	red.style.left = x + "px";
+}
