@@ -2,8 +2,8 @@
 
 Proyecto Final Sprint II To Do List
 
-	https://sharmyn28.github.io/maze-AB/
-	
+[GitHub](https://sharmyn28.github.io/maze-AB/)
+
 
 **1. HTML**
 + Título: "Angry Bird Maze"  El cual se realizo con un tamaño h1
