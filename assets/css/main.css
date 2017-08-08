@@ -4,9 +4,6 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	background: #edf4f0;
 }
-tr{
-	background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
-}
 
 .asterisco-left{
   color:white;
@@ -65,40 +62,27 @@ tr{
 }
 .espacio{
   color:white;
-  /*background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);*/
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
 }
 
 .inicio{
-  /*background-color: red;*/
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
   color:white;
 }
 
 .fin{
   color:white;
-  /*background-image: url(../img/nest.png);*/
+  background-image: url(http://img12.deviantart.net/0614/i/2008/119/e/c/grass_texture_by_deathlyrain.jpg);
 }
 
 td{
-  width: 200px;
   height: 50px;
+  width: 35px;
 }
 
 #initial{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
-}
-
-#nest{
-	width: 5%;
-	right:475px;
-	position: absolute;
-	top: 580px;
-}
-#red{
-  width: 5%;
-  left:231px;
-  position: absolute;
-  top: 575px;
 }
 
 #moveRight{
