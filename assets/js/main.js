@@ -12,7 +12,6 @@ var mapa=[
 "*o*__*________**W*",
 "******************"];
 
-//var red = document.getElementById("red");
 var tablero = document.getElementById('tablero');
 var x;
 var y;
@@ -59,8 +58,14 @@ function generar(){
       	celda.setAttribute('class','inicio');
       	y = i;
       	x = j;
+      	var img =document.createElement("img");
+        img.src = "assets/img/red51.png";
+        celda.appendChild(img);
       }else if(mapa[i][j] == "W"){
       	celda.setAttribute('class','fin');
+      	var nest =document.createElement("img");
+        nest.src = "assets/img/nest1.png";
+        celda.appendChild(nest);
       }
       celda.setAttribute("id", i +","+ j);
       fila.appendChild(celda);
@@ -83,7 +88,11 @@ var step1 = 36;
 	var newPosition;
 	var celdaFinal = mapa[9][16];
 
+
 moveForward.onclick = function (){
+	var dibujo = document.getElementById("dibujo");
+	var img = document.createElement("img");
+	dibujo.innerHTML = "";
 	/*var y= red.offsetTop;
 	if(y >= 225){
 		y = y - step;
@@ -91,25 +100,14 @@ moveForward.onclick = function (){
 	}else{
 		red.style.top = y + "px";
 	}*/
-	//var angryBird = document.createElement("img");
-	
-	//mapa[y-1][x].appendChild(angryBird);
 
 	if(mapa[(y -1)][x] != "*" && celdaFinal != mapa[(y - 1)][x]){
 		newPosition = (y-1)+","+x;
-		/*angryBird.setAttribute("src", "assets/img/red.png");
-		angryBird.setAttribute("id","red");		
-		document.getElementById(newPosition).appendChild(angryBird);
-		var red = document.getElementById("red");*/
-		/*document.write('<img src="assets/img/red.png" id="red">');
-		document.getElementById(newPosition);*/
-
-
-		//document.getElementById(newPosition).rows[0].innerHTML =
+		var pos = document.getElementById(newPosition);
+		img.setAttribute("src","assets/img/red51.png");
+        pos.appendChild(img);
+		
 		console.log(newPosition);
-		//console.log(angryBird);
-		document.getElementById(newPosition).innerHTML = "O";
-		//document.getElementById(newPosition).innerHTML = red;
 		y--;
 	}else if(celdaFinal == mapa[(y -1)][x]){
 		swal({
@@ -122,6 +120,9 @@ moveForward.onclick = function (){
 }
 
 moveBackward.onclick = function (){
+	var dibujo = document.getElementById("dibujo");
+	var img = document.createElement("img");
+	dibujo.innerHTML = "";
 	/*var y= red.offsetTop;
 	if(y <= 525){
 		y = y + step;
@@ -131,21 +132,27 @@ moveBackward.onclick = function (){
 	}*/
 	if(mapa[(y +1)][x] != "*" && celdaFinal != mapa[(y +1)][x]){
 		var newPosition = (y+1)+","+x;
+		var pos = document.getElementById(newPosition);
+		img.setAttribute("src","assets/img/red51.png");
+        pos.appendChild(img);
+
 		console.log(newPosition);
-		document.getElementById(newPosition).innerHTML = "O";
 		y++;
 	}
 	else if(celdaFinal == mapa[(y +1)][x]){
 		swal({
 		  title: "Congrats!",
 		  text: "You make it through the maze.",
-		  imageUrl: "assets/img/red1.gif"
+		  imageUrl: "assets/img/giphy.gif"
 		});
     	console.log(mapa[(y +1)][x]);
 	}
 }
 
 moveRight.onclick = function (){
+	var dibujo = document.getElementById("dibujo");
+	var img = document.createElement("img");
+	dibujo.innerHTML = "";
 	/*var x= red.offsetLeft;
 	if(x <= 775){
 		x = x + step1;
@@ -155,20 +162,26 @@ moveRight.onclick = function (){
 	}*/
 	if(mapa[y][(x+1)] != "*" && celdaFinal != mapa[y][x+1]){
 		var newPosition = y+","+(x+1);
-		console.log(newPosition);
-		document.getElementById(newPosition).innerHTML = "O";
+		var pos = document.getElementById(newPosition);
+		img.setAttribute("src","assets/img/red51.png");
+        pos.appendChild(img);
+
+        console.log(newPosition);
 		x++;
 	}else if(celdaFinal == mapa[y][x+1]){
 		swal({
 		  title: "Congrats!",
 		  text: "You make it through the maze.",
-		  imageUrl: "assets/img/piggyGif.gif"
+		  imageUrl: "assets/img/giphy.gif"
 		});
     	console.log(mapa[y][x+1]);
 	}
 }
 
 moveLeft.onclick = function (){
+	var dibujo = document.getElementById("dibujo");
+	var img = document.createElement("img");
+	dibujo.innerHTML = "";
 	/*var x= red.offsetLeft;
 	if(x >= 261){
 		x = x - step1;
@@ -178,14 +191,17 @@ moveLeft.onclick = function (){
 	}*/
 	if(mapa[y][x-1] != "*" && celdaFinal != mapa[y][x-1]){
 		var newPosition = y+","+(x-1);
-		console.log(newPosition);
-		document.getElementById(newPosition).innerHTML = "O";
+		var pos = document.getElementById(newPosition);
+		img.setAttribute("src","assets/img/red51.png");
+        pos.appendChild(img);
+        
+        console.log(newPosition);
 		x--;
 	}else if(celdaFinal == mapa[y][x-1]){
 		swal({
 		  title: "Congrats!",
 		  text: "You make it through the maze.",
-		  imageUrl: "assets/img/piggyGif.gif"
+		  imageUrl: "assets/img/giphy.gif"
 		});
 		console.log(mapa[y][x-1]);
 	}
